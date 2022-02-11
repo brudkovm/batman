@@ -70,6 +70,24 @@ header.menu {
     align-items: center;
 }
 
+.footer__menu {
+    display: flex;
+    padding-left: 0;
+    color: #FFFFFF;
+}
+
+.footer__menu li {
+    list-style: none;
+}
+
+.footer__menu li:not(:last-child) {
+    margin-right: 2.5rem;
+}
+
+.footer__menu a {
+    color: #FFFFFF;
+}
+
 body {
     background: url('../img/background.jpg');
 }
