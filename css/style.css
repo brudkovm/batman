@@ -57,6 +57,19 @@ header.menu {
     margin-right: 2rem;
 }
 
+.footer {
+    background: #030102;
+    color: #FFFFFF;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 body {
     background: url('../img/background.jpg');
 }
